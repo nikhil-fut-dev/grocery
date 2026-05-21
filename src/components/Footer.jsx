@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="footer-img">
               <img src="/images/footer.png" alt="Footer Logo" />
               <p className="mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Obcaecati deserunt nobis tempora magnam minus quae.
               </p>
               <div className="footer-social">
@@ -43,37 +43,37 @@ export default function Footer() {
               <ul>
                 <li>
                   <a href="#home">
-                    <i className="fa-solid fa-angle-right">Home</i>
+                    <i className="fa-solid fa-angle-right"></i>Home
                   </a>
                 </li>
                 <li>
                   <a href="#about">
-                    <i className="fa-solid fa-angle-right">About</i>
+                    <i className="fa-solid fa-angle-right"></i>About
                   </a>
                 </li>
                 <li>
                   <a href="#service">
-                    <i className="fa-solid fa-angle-right">Service</i>
+                    <i className="fa-solid fa-angle-right"></i>Service
                   </a>
                 </li>
                 <li>
                   <a href="#shop">
-                    <i className="fa-solid fa-angle-right">Shop</i>
+                    <i className="fa-solid fa-angle-right"></i>Shop
                   </a>
                 </li>
                 <li>
                   <a href="#products">
-                    <i className="fa-solid fa-angle-right">Products</i>
+                    <i className="fa-solid fa-angle-right"></i>Products
                   </a>
                 </li>
                 <li>
                   <a href="#categories">
-                    <i className="fa-solid fa-angle-right">Categories</i>
+                    <i className="fa-solid fa-angle-right"></i>Categories
                   </a>
                 </li>
                 <li>
                   <a href="#offers">
-                    <i className="fa-solid fa-angle-right">Offers</i>
+                    <i className="fa-solid fa-angle-right"></i>Offers
                   </a>
                 </li>
               </ul>
@@ -86,37 +86,37 @@ export default function Footer() {
               <ul>
                 <li>
                   <a href="#shipments">
-                    <i className="fa-solid fa-angle-right">Shipments</i>
+                    <i className="fa-solid fa-angle-right"></i>Shipments
                   </a>
                 </li>
                 <li>
                   <a href="#privacy">
-                    <i className="fa-solid fa-angle-right">Privacy</i>
+                    <i className="fa-solid fa-angle-right"></i>Privacy
                   </a>
                 </li>
                 <li>
                   <a href="#order">
-                    <i className="fa-solid fa-angle-right">Order</i>
+                    <i className="fa-solid fa-angle-right"></i>Order
                   </a>
                 </li>
                 <li>
                   <a href="#return">
-                    <i className="fa-solid fa-angle-right">Return</i>
+                    <i className="fa-solid fa-angle-right"></i>Return
                   </a>
                 </li>
                 <li>
                   <a href="#policies">
-                    <i className="fa-solid fa-angle-right">Policies</i>
+                    <i className="fa-solid fa-angle-right"></i>Policies
                   </a>
                 </li>
                 <li>
                   <a href="#orders">
-                    <i className="fa-solid fa-angle-right">Orders</i>
+                    <i className="fa-solid fa-angle-right"></i>Orders
                   </a>
                 </li>
                 <li>
                   <a href="#offers">
-                    <i className="fa-solid fa-angle-right">Offers</i>
+                    <i className="fa-solid fa-angle-right"></i>Offers
                   </a>
                 </li>
               </ul>
@@ -130,15 +130,17 @@ export default function Footer() {
                 <ul>
                   <li>
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:proonwork@gmail.com">proonwork@gmail.com</a>
+                    <a href="mailto:codingwing@gmail.com">
+                      codingwing@gmail.com
+                    </a>
                   </li>
                   <li>
                     <i className="fa-solid fa-phone"></i>
-                    <a href="tel:1234567890">9839507418</a>
+                    <a href="tel:1234567890">123456 7890</a>
                   </li>
                   <li>
                     <i className="fa-solid fa-location-dot"></i>
-                    <a href="#location">Varanasi,Durgakund, Khojawa</a>
+                    <a href="#location">123 Lorem, ipsum.</a>
                   </li>
                 </ul>
               </div>
@@ -148,7 +150,7 @@ export default function Footer() {
       </div>
 
       <div className="copyrights">
-        <p className="m-0">Copyrights | Nikhil Web-Dev | 2026</p>
+        <p className="m-0">Copyrights | Coding Wing | 2026 .</p>
       </div>
     </footer>
   );
