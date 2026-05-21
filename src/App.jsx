@@ -8,6 +8,7 @@ import FreshOffers from "./components/FreshOffers";
 import WeekendDeals from "./components/WeekendDeals";
 import TodayArrivals from "./components/TodayArrivals";
 import Features from "./components/Features";
+import PromoBanner from "./components/PromoBanner";
 import BlogSection from "./components/BlogSection";
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
       <WeekendDeals />
       <TodayArrivals />
       <Features />
-      
+      <PromoBanner />
       <BlogSection />
     </main>
   );
