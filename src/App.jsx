@@ -10,6 +10,7 @@ import TodayArrivals from "./components/TodayArrivals";
 import Features from "./components/Features";
 import PromoBanner from "./components/PromoBanner";
 import BlogSection from "./components/BlogSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Features />
       <PromoBanner />
       <BlogSection />
+      <Footer />
     </main>
   );
 }
