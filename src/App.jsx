@@ -7,6 +7,8 @@ import TopProducts from "./components/TopProducts";
 import FreshOffers from "./components/FreshOffers";
 import WeekendDeals from "./components/WeekendDeals";
 import TodayArrivals from "./components/TodayArrivals";
+import Features from "./components/Features";
+import BlogSection from "./components/BlogSection";
 
 function App() {
   return (
@@ -20,6 +22,9 @@ function App() {
       <FreshOffers />
       <WeekendDeals />
       <TodayArrivals />
+      <Features />
+      
+      <BlogSection />
     </main>
   );
 }
