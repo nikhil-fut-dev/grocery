@@ -39,7 +39,29 @@ export default function FreshOffers() {
           </div>
 
           <div className="col-md-8">
-            
+            <div className="row">
+              <div className="col-md-4">
+                <ProductCard
+                  title="Cucumber"
+                  image="product-img.png"
+                  price="22.00"
+                />
+              </div>
+              <div className="col-md-4">
+                <ProductCard
+                  title="potato"
+                  image="product-img-1.png"
+                  price="22.00"
+                />
+              </div>
+              <div className="col-md-4">
+                <ProductCard
+                  title="Spinach"
+                  image="product-img-2.png"
+                  price="22.00"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
