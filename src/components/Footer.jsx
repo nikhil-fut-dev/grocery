@@ -131,16 +131,16 @@ export default function Footer() {
                   <li>
                     <i className="fa-solid fa-envelope"></i>
                     <a href="mailto:codingwing@gmail.com">
-                      codingwing@gmail.com
+                      proonwork@gmail.com
                     </a>
                   </li>
                   <li>
                     <i className="fa-solid fa-phone"></i>
-                    <a href="tel:1234567890">123456 7890</a>
+                    <a href="tel:1234567890">91+ 9839207318</a>
                   </li>
                   <li>
                     <i className="fa-solid fa-location-dot"></i>
-                    <a href="#location">123 Lorem, ipsum.</a>
+                    <a href="#location">Varanasi, Durgakund, Khojawa</a>
                   </li>
                 </ul>
               </div>
