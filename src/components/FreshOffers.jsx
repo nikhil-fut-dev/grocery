@@ -5,6 +5,7 @@ export default function FreshOffers() {
     <section className="product-item-sec">
       <div className="container">
         <h2 className="title text-center">Fresh offers</h2>
+
         <div className="row mt-5 align-items-center">
           <div className="col-lg-4">
             <div className="product-timer">
@@ -35,6 +36,10 @@ export default function FreshOffers() {
                 </p>
               </div>
             </div>
+          </div>
+
+          <div className="col-md-8">
+            
           </div>
         </div>
       </div>
