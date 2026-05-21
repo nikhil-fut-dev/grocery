@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import CategorySlider from "./components/CategorySlider";
 import TopProducts from "./components/TopProducts";
+import FreshOffers from "./components/FreshOffers";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <CategorySlider />
       <TopProducts />
+      <FreshOffers />
     </main>
   );
 }
