@@ -378,3 +378,18 @@ h2.title {
     width: 60%;
 }
 
+.weekend-text h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.weekend-text h3 {
+    color: white;
+    font-size: 30px;
+    width: 100%;
+}
+
+.weekend-text .nav-btn a {
+    background-color: #eeed00;
+    color: #000;
+}
