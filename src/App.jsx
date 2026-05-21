@@ -5,6 +5,8 @@ import Banner from "./components/Banner";
 import CategorySlider from "./components/CategorySlider";
 import TopProducts from "./components/TopProducts";
 import FreshOffers from "./components/FreshOffers";
+import WeekendDeals from "./components/WeekendDeals";
+import TodayArrivals from "./components/TodayArrivals";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <CategorySlider />
       <TopProducts />
       <FreshOffers />
+      <WeekendDeals />
+      <TodayArrivals />
     </main>
   );
 }
