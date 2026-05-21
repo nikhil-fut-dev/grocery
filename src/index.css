@@ -393,3 +393,139 @@ h2.title {
     background-color: #eeed00;
     color: #000;
 }
+
+.featured-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.featured-flex i {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-content: center;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    font-size: 23;
+}
+
+.featured-flex p {
+    font-size: 22px;
+    font-family: "Jost", sans-serif;
+    margin: 0;
+    color: #000;
+    font-weight: 600;
+}
+
+.featured-sec {
+    background-color: #fff;
+}
+
+.bg-sec {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0 70px;
+}
+
+.bg-text h3 {
+    font-size: 46px;
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin: 0 0 20px;
+}
+
+,.bg-text p {
+    width: 90%;
+}
+
+.blog-box {
+    width: 100%;
+    position: relative
+}
+
+.blog-img {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+} 
+
+.blog-text h3 {
+    font-size: 22px;
+}
+
+.blog-arrow a i {
+    width: 25px;
+    height: 25px;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 100%;
+    display: grid;
+    place-content: center;
+    font-size: 12px;
+}
+
+.blog-arrow a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer {
+    background: var(--secondary-color);
+    padding: 60px 0 0;
+}
+
+footer img {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 20;
+}
+
+footer p,
+footer a {
+    color: white;
+}
+
+footer h4 {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    margin: 0 0 15px;
+}
+
+.footer-links ul li a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 9px;
+}
+
+.footer-flex li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 20px;
+}
+
+.footer-flex li i {
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-content: center;
+    background-color: center;
+    color: var(--secondary-color);
+    border-radius: 100%;
+    font-size: 14px;
+}
