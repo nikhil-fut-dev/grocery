@@ -6,8 +6,8 @@ export default function Navbar() {
     "Arrivals",
     "Blogs",
     "Offers",
-    "Aboute Us",
-    "Contacts Us",
+    "About Us",
+    "Contact Us",
   ];
 
   return (
