@@ -58,7 +58,7 @@ export default function TodayArrivals() {
                 </div>
                 <p className="text-white mt-2">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nikhil, molestiae!
+                  Nihil, molestiae!
                 </p>
               </div>
             </div>
@@ -69,7 +69,7 @@ export default function TodayArrivals() {
               <Slider {...settings}>
                 {arrivals.map((product, index) => (
                   <div key={index} className="px-2">
-                    <ProductCard {...ProductCard} />
+                    <ProductCard {...product} />
                   </div>
                 ))}
               </Slider>
